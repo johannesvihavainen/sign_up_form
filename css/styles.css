@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f9fafb;
+}
+
+/* LEFT SIDE COLUMN */
+header {
+    background-image: url('../photos/metro_helsinki.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+.header-container {
+    background-color: rgba(120, 38, 0, 0.789);
+    margin-top: 35%;
+}
+
+h1 {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-size: 7rem;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+
+
+/* RIGHT SIDE COLUMN */
+.introduction-paragraph{
+padding: 50px;
+font-size: 2rem;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    width: 100%;
+}
+
+h2,
+h3 {
+    font-size: 2rem;
+}
+
+h2 {
+    padding: 50px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-divs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 0 0;
+}
+
+input {
+    width: 300px;
+}
+
+
+label {
+    text-transform: uppercase;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.registerbtn {
+    background-color: rgb(120, 38, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 60px;
+    width: 250px;
+}
+.registerbtn:hover {
+    background-color: rgba(120, 38, 0, 0.747);
+}
+
+.signin a {
+    color: rgb(120, 38, 0);
+}
+
+.sign-up-container {
+    padding: 50px;
+}
+
+.sign-up-container p {
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
