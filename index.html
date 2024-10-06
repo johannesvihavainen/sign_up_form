@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <title>Sign-up Form</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Helsinki Metro Card</h1>
+        </div>
+    </header>
+
+    <section class="right">
+        <div class="introduction-paragraph">
+            <p>This is a sign-up form project I created for my Odin Project curriculum. <br>It is made using HTML and
+                CSS.
+            <p>
+            <p>
+                Sign up now to get started. The metro gets you to places quicker.
+            </p>
+        </div>
+
+        <section class="main-content">
+            <form action="action_page.php" class="form-main-div">
+                <h3>Sign up for a Helsinki Metro Station Card now!</h3>
+
+                <div class="form-container">
+                    <div class="form-divs">
+                        <div class="form-div">
+                            <label for="first_name"><b>First Name</b></label>
+                            <input type="text" name="email" id="first_name" required>
+                        </div>
+                        <div class="form-div">
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" name="email" id="email" required>
+                        </div>
+                        <div class="form-div">
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" name="psw" id="psw" required>
+                        </div>
+                    </div>
+
+                    <div class="form-divs">
+                        <div class="form-div">
+                            <label for="last_name"><b>Last Name</b></label>
+                            <input type="text" name="email" id="last_name" required>
+                        </div>
+                        <div class="form-div">
+                            <label for="number"><b>Phone Number</b></label>
+                            <input type="text" name="number" id="number" required>
+                        </div>
+
+                        <div class="form-div">
+                            <label for="psw-repeat"><b>Confirm Password</b></label>
+                            <input type="password" name="psw-repeat" id="psw-repeat" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="sign-up-container">
+                <button type="submit" class="registerbtn">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a>.</p>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
